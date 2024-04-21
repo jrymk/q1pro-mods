@@ -7,4 +7,5 @@ Star and watch this repo for updates.
 | --- | --- |
 | printer.cfg | Temperature sensors and minor tweaks |
 | gcode_macro.cfg | Organized macros, optimized nozzle cleaning and smoother purge bucket operation, useful macros, etc. |
-| Build Plate Guide | _Revision 2 only!_ Replace stock bed shroud with split build plate guide for better bed flatness |
+| [Build Plate Guide](https://makerworld.com/en/models/429171#profileId-333494) | _Revision 2 only!_ Replace stock bed shroud with split build plate guide for better bed flatness |
+| [Ugly Spool Holder](https://makerworld.com/en/models/431964#profileId-336548) | _Revision 2 recommended._ Voron style spool holder, printed in one piece in a relatively strong orientation |
