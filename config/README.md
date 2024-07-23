@@ -1,6 +1,7 @@
 # Modified configs for the Qidi Q1 Pro
 
-Use at your own risk
+**Use at your own risk.**\
+You actually need to place the steel build plate on the bed when it homes and probes. The aluminum bed will NOT trigger the inductive probe. Increase the Z offset way high if you're scared of damaging the build plate.
 
 ## Quick start TL;DR for advanced Klipper users
 - `printer.cfg`: Replace everything except the SAVE_CONFIGS
