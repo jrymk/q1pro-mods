@@ -1,1 +1,0 @@
-Obviously, I do not own these files. These are pulled from the printer.
