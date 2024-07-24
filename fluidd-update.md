@@ -36,3 +36,10 @@ rm -rf fluidd
 tar -xzf fluidd.tgz
 ```
 8. Maybe reboot, maybe restart services. I didn't, and it worked fine.
+
+## Notes
+- Z controls are now inverted
+![image](https://github.com/user-attachments/assets/99ac6de1-9e5b-4b6d-9973-1a8f01dfd3d4)
+The arrows for toolhead control used to indicate bed movement by default, but now up means Z+ (bed down) and down means Z- (bed up).
+The Z offset adjustment controls don't seem to apply, so you'll get up for Z+ and down for Z- regardless.
+Be careful! Don't go the wrong way...
