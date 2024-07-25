@@ -43,7 +43,7 @@ The `printer.cfg` file is automatically backed up by the system. You can downloa
    Be extra sure that the nozzle looks nice and clean when calibrating your nozzle offset. If the nozzle is not clean during a print setup is fine, as the first layer will just be too high. But if you adjust the Z offset and save this result to the nozzle offset, subsequent prints will be too low, and **may damage your build plate!**\
     ![image](https://github.com/user-attachments/assets/5caef60d-2cf1-4e2c-8d08-36895e0d1e09)
 6. After dialing the first layer, you may leave it printing, or cancel it. Type in `Z_OFFSET_APPLY_PROBE` to apply the adjustments you made with the Z offset to the nozzle probe, so the next time it will be perfect. By default, the Z offset you made are cleared when the next print job starts, so make sure to save it by issuing this command right now.
-7. After that, you can also issue `Z_OFFSET_APPLY_ENDSTOP`, so the nozzle offset is about right even before any nozzle probing occurs. However, the inductive probe is subject to thermal drift, and may differ by about 0.3mm depending on the chamber temperature. Therefore, try not to drive the bed near Z=0 before a print.
+7. After that, you can also issue `Z_OFFSET_APPLY_ENDSTOP`, so the nozzle offset is about right even before any nozzle probing occurs. Still, try not to drive the bed near Z=0 before a print.
    ```
    Z_OFFSET_APPLY_PROBE
    Z_OFFSET_APPLY_ENDSTOP
