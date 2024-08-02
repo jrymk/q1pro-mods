@@ -3,6 +3,8 @@
 **Use at your own risk.**\
 You actually need to place the steel build plate on the bed when it homes and probes. The aluminum bed will NOT trigger the inductive probe. Increase the Z offset way high if you're scared of damaging the build plate.
 
+If you unplug your printer, you might need to reinstall these config files.
+
 ## Quick start TL;DR for advanced Klipper users
 - `printer.cfg`: Replace everything except the SAVE_CONFIGS
 - `gcode_macro.cfg`: Replace everything
